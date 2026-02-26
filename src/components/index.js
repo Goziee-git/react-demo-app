@@ -1,0 +1,15 @@
+// Central export file for all components
+// This allows cleaner imports: import { Car, Student } from './components'
+
+export { Navbar } from './Navbar'
+export { Card } from './Card'
+export { InfoBox } from './InfoBox'
+export { Car, CarDestructured } from './Car'
+export { Student } from './Student'
+export { Countries } from './Countries'
+export { Vehicle } from './Vehicle'
+export { Fruits } from './Fruits'
+export { Person, PersonDestructured, PersonDestructuredInside } from './Person'
+export { Counter } from './Counter'
+export { InteractiveCard } from './InteractiveCard'
+export { ContactForm } from './ContactForm'

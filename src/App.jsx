@@ -1,6 +1,18 @@
 import { useState } from 'react'
 import './App.css'
-import { Navbar, Car, Student, Countries, Vehicle, Fruits, Card, InfoBox, Counter, InteractiveCard, ContactForm } from './Component.jsx'
+import { 
+  Navbar, 
+  Car, 
+  Student, 
+  Countries, 
+  Vehicle, 
+  Fruits, 
+  Card, 
+  InfoBox, 
+  Counter, 
+  InteractiveCard, 
+  ContactForm 
+} from './components'
 
 export default function App() {
   const [text, setText] = useState('');
